@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+html, body {
+    width: 100%;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+.secao-generica {
+    width: 100vw;
+    
+}
+#cardapio-1 img {
+    width: 100%; 
+}
+
+#cardapio-2 img {
+    width: 100%; 
+}
+
+#cardapio-3 img {
+    width: 100%; 
+}
+
+#footer nav {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1205;
+}
+
+#footer nav a {
+    font-size: 30px;
+    color: #FFF;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+#footer img {
+    width: 100%; 
+}
+
+.pedido button {
+    top: -500px ;
+    left: 85px ;
+    position: relative;
+    font-size: 33px;
+    color: #FFF;
+    border: 0;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #820d55;
+    padding: 12px;
+    width: 400px;
+    cursor: pointer;
+}
+.pedido button:hover {
+    animation: blink 1s steps(5, start) infinite;
+    background-color: #450b2d;
+    transition: 0,4s;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    #footer nav a {
+        font-size: 11px;
+    }
+    .pedido button {
+        top: -125px;
+        left: 15px;
+        font-size: 14px;
+        width: 150px;
+        padding: 5px;
+
+    }
+}
